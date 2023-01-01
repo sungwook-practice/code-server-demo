@@ -2,6 +2,8 @@
 * code-serve을 쿠버네티스에 배포 연습
 
 # 실행방법
+* ingress host수정
+* 배포
 ```sh
 kubectl apply -f ./manifests/
 ```
