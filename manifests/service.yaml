@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+ name: code-server
+ namespace: default
+spec:
+ ports:
+ - port: 80
+   targetPort: 8080
+ selector:
+   app: code-server
